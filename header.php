@@ -17,10 +17,11 @@
                 <li><a href="./index.php">Home</a>&nbsp;</li>
                 <li><a href="./products.php">Products</a>&nbsp;</li>
                 <li><a href="./services.php">Services</a>&nbsp;</li>
-                <li><a href="./sales.php">Sales</a>&nbsp;&nbsp;</li>
-                <li><a href="./messages.php">Messages</a>&nbsp;&nbsp;</li>
+                <li><a href="./login.php">Official Use</a>&nbsp;&nbsp;</li>
+                
 
             </ul>
             </nav>              
     </div>
         
+ 
