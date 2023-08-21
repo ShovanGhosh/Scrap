@@ -1,5 +1,5 @@
 1
-Atindra Nath Nath
+AtindraNathNath
 AtindraNathNath599@gmail.com
 ojdeinwnef564654wefewf46685ef
-INSERT INTO `login` (`id_single`, `Name`, `Email`, `Password`) VALUES (NULL, 'Atindra Nath Nath', 'AtindraNathNath599@gmail.com', 'ojdeinwnef564654wefewf46685ef');
+INSERT INTO `login` (`id_single`, `Name`, `Email`, `Password`) VALUES (NULL, 'AtindraNathNath', 'AtindraNathNath599@gmail.com', 'ojdeinwnef564654wefewf46685ef');
