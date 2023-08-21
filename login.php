@@ -3,9 +3,9 @@
  <h1> User Login  </h1>    
     <form name="login" action="login_action.php " method="post">  
         <div class="container_login">   
-            <div><label>Username : </label>   
+            <div class="uname"><label>Username : </label>   
             <input type="text" placeholder="Enter Username" name="userName" id="userName" required> </div> 
-            <div><label>Password : </label>   
+            <div class="pwd"><label>Password : </label>   
             <input type="password" placeholder="Enter Password" name="password" id="password"required> </div> 
             <div><button type="submit" name="login_btn">Login</button> 
 

@@ -131,6 +131,30 @@ border-radius: 5px 20px 5px;
 .products{
 text-align: center;
 }
+/*login*/
+.container_login{
+    text-align: center;
+    font-weight: 500;
+}
+.container_login button{
+    background-color: rgb(11, 50, 223);
+    color: #fff7f7;
+}
+.container_login input[type=text] {
+    border: 2px solid rgb(19, 18, 18);
+    border-radius: 4px;
+  }
+  .container_login input[type=password] {
+    border: 2px solid rgb(19, 18, 18);
+    border-radius: 4px;
+  }
+  .container_login .uname{
+        margin-top: 40px;
+  }
+  .container_login .pwd{
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
 /*Services*/
 /*Sales*/
 /*message*/
