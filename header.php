@@ -15,8 +15,6 @@
             <header> <div class="icon"><img src="./images\icon.jpg" alt="tools"><h1 class="nav_e">Electro Com</h1>  </div></header> 
             <ul class="nav_bar"id="nav_bar">
                 <li><a href="./index.php">Home</a>&nbsp;</li>
-                <li><a href="./products.php">Products</a>&nbsp;</li>
-                <li><a href="./services.php">Services</a>&nbsp;</li>
                 <li><a href="./login.php">Official Use</a>&nbsp;&nbsp;</li>
                 
 

@@ -35,6 +35,7 @@
     padding: 5px;
     margin-bottom: 10px;
 }
+/*home page*/
 .banner header{
     color:rgb(31, 54, 129);
     font-weight: 300;
@@ -43,65 +44,100 @@
 .banner{
     font-size: 50px;
     margin-left: 20px;
-    background-image: url(./images/banner.jpg);
-    background-repeat: no-repeat, repeat;
+    /*background-image: url(./images/banner.jpg);*/
     background-color: #fff7f7;
     background-size:100%;
     background-position: center;
     background-blend-mode: normal;
     height:100%;
+    min-height: 50px; 
     width:100%;
-    color:rgb(0, 0, 0)
-    
-}
-    
-
-
-
-.banner1{
-font-size:medium;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-margin-top: 50px;
-margin-bottom : 50px;
-font-weight: 600;
-background-color:rgba(102, 107, 105, 0.5);
-border-radius: 10px / 30px;
-border-radius: 5px 20px 5px;
-}
-
-.banner2{
-    font-size:medium;
+    color:rgb(0, 0, 0);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    float: right;
-    margin-top: 50px;
-    margin-bottom : 50px;
-    margin-right: 10px;
-    font-weight: 600;
-    background-blend-mode: multiply;
-    }
-
-.banner3{
-    font-size:medium;
-    margin-top: 50px;
-    margin-bottom : 50px;
-
+    
+    
 }
-.banner3 a{
-    color: #fff7f7;
+.banner .banner1{
+    display : flex;
+    flex-direction : row;
+}
+.banner .banner2{
+    display : flex;
+    flex-direction : row;
+}
+/*video*/
+.video-container {
+    height: 500px;
+    width: 800px;
+    position: relative;
+    border-radius:25px ;
+}
+
+.video-container video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  z-index: 0;
+  border-radius:25px ;
+  box-shadow: 10px 10px 5px lightblue;
+}
+.banner2 .about-us{
+    margin: 20px;
+    margin-right: 300px;
+    width: 1000px;
+    height:220px;
+    background-color:rgba(11, 53, 78, 0.5);
+    font-size: 1rem;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.banner2 .div-button1{
+    margin: 20px;
+    margin-left: 20px;
+    width: 220px;
+    height:220px;
+    background-color:rgba(17, 235, 17, 0.5);
+    font-size:large;
+    text-align: center;
+    padding: 80px;
+    box-shadow: 10px 10px 5px lightblue;
+    border-radius: 20px; 
+}
+.banner2 .div-button2{
+    margin: 20px;
+    margin-left: 20px;
+    width: 220px;
+    height:220px;
+    background-color:rgba(231, 132, 3, 0.973);
+    font-size:large;
+    text-align: center;
+    padding: 80px;
+    box-shadow: 10px 10px 5px lightblue;
+    border-radius: 20px;
+    
+}
+.banner2 a{
+    color: rgb(4, 1, 17);
     text-decoration: none;
 }
-
-.banner4{
-    font-size:medium;
-    margin-top: 50px;
-    margin-bottom : 50px;
-    font-weight: 600;
-
+.banner2 a:hover {
+    background-color: #AD310B;
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
+    border-radius: 20px;
 }
-.banner5{
-    float: left;
-    
-}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.video-container .caption {
+  z-index: 1;
+  position: relative;
+  text-align: center;
+  color: #dc0000;
+  padding: 10px;
+} 
+/*video*/
 .copyright{
     text-align: center;
     color: antiquewhite;
@@ -109,12 +145,37 @@ border-radius: 5px 20px 5px;
     margin-top: 0px;
     padding: 10px;
     margin-bottom: 0px;
-    margin-top: 300px;
+    margin-top: 10px;
     font-size: 0.3em;
 }
-/*contact  css*/ 
+/*contact  css*/
+.container_contacts{
+    text-align: right;
+    background-color: rgba(17, 24, 133,0.5);
+    border-radius:25px;
+    margin-left: 20px;
+    height: 500px;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.container_contacts .contact_heading{
+    text-align: center;
+    font-size: 1rem;
+    text-align: center;
+}
+.container_contacts .column{
+    font-size:small;
+    color:aquamarine;
+    text-align: center;
+}
 .contacts{
     color:aqua;
+}
+.container_contacts .column input[type="submit"]{
+    color:rgb(12, 11, 10);
+}
+
+.row{
+    float: right;
     text-align: center;
 }
 
@@ -156,8 +217,21 @@ text-align: center;
     margin-bottom: 15px;
   }
 /*Services*/
-/*Sales*/
+/*products_update*/
+.products_update{
+    float: left;
+}
+.products_update_content{
+    margin-left: 100px;
+}
 /*message*/
+.message{
+    float: left;
+
+}
+.message_content{
+    margin-left: 100px;
+}
 /*body css*/ 
 body{
     width:99%;
